@@ -95,8 +95,8 @@ Building C++ backend/systems projects · Practising DSA · Learning OS, CN, DBMS
 ### `github-stats`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shineyrbl-byte&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shineyrbl-byte&layout=compact&hide_border=true&theme=tokyonight" alt="Most used languages"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=shineyrbl-byte&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=shineyrbl-byte&layout=compact&hide_border=true&theme=tokyonight" alt="Most used languages"/>
 </p>
 
 <p align="center">
