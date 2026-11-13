@@ -71,7 +71,7 @@ I enjoy understanding how things work under the hood and building projects that 
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=shineyrbl-byte&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=shineyrbl-byte&hide_border=true&theme=transparent&timezone=Asia%2FKolkata" alt="GitHub contribution streak" />
 </p>
 
 ---
