@@ -100,7 +100,7 @@ Building C++ backend/systems projects · Practising DSA · Learning OS, CN, DBMS
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=shineyrbl-byte&hide_border=true&theme=tokyonight&timezone=Asia%2FKolkata" alt="GitHub contribution streak"/>
+  <img src="https://streak-stats.demolab.com?user=shineyrbl-byte&hide_border=true&theme=tokyonight&timezone=Asia%2FKolkata&hide_total_contributions=true" alt="GitHub contribution streak"/>
 </p>
 
 ### `connect`
