@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/shineyrbl-byte"><img src="https://img.shields.io/badge/GitHub-shineyrbl--byte-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-  <a href="https://codeforces.com/profile/Avisha_2911"><img src="https://img.shields.io/badge/Codeforces-Avisha__2911-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
+  <a href="https://www.linkedin.com/in/avisha-srivastava-a7b78523a/"><img src="https://img.shields.io/badge/LinkedIn-Avisha%20Srivastava-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
 ---
@@ -78,20 +78,12 @@ I'm an undergraduate at **BITS Pilani, Goa Campus**, interested in building soft
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shineyrbl-byte&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph" width="100%"/>
 </p>
 
-### `coding-profiles`
+### `connect`
 
 <p align="center">
-  <a href="https://codeforces.com/profile/Avisha_2911">Codeforces · Avisha_2911</a>
-  &nbsp;·&nbsp;
   <a href="https://github.com/shineyrbl-byte">GitHub · shineyrbl-byte</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/avisha-srivastava-a7b78523a/">LinkedIn · Avisha Srivastava</a>
-</p>
-
-<p align="center">
-  <a href="https://codeforces.com/profile/Avisha_2911">
-    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Avisha_2911" alt="Codeforces statistics for Avisha_2911"/>
-  </a>
 </p>
 
 ### `contribution-snake`
