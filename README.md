@@ -6,7 +6,7 @@
 
 <h1 align="center">Hi, I'm Avisha 👋</h1>
 <p align="center">
-  <b>Software engineering enthusiast | C++ · Python · Backend & Systems</b><br/>
+  <b>Software Engineering | C++ · Python · Backend & Systems</b><br/>
   BITS Pilani, Goa Campus · 2024–2028
 </p>
 
@@ -19,49 +19,78 @@
 
 ### `whoami`
 
-I'm an undergraduate at **BITS Pilani, Goa Campus**, interested in building software and understanding how it works under the hood. I primarily work with **C++ and Python**, and enjoy backend development, systems programming, and problem solving.
+I'm an undergraduate at **BITS Pilani, Goa Campus** who enjoys building software from the ground up and understanding how it works under the hood. My current focus is **C++ backend and systems programming**—networked servers, concurrency, and data structures—alongside Python-based applications.
 
-- 🎓 BITS Pilani, Goa Campus · 2024–2028
-- 🧠 Interested in C++, data structures & algorithms, backend engineering, and core CS
-- 🔧 I like building practical projects — from network servers to developer tools
-- 🌱 Currently strengthening my foundations in operating systems, computer networks, databases, and system design
+- 🧩 Interested in C++, DSA, backend engineering, and core computer science
+- 🔧 I enjoy building practical projects, from TCP servers to developer tools
+- 🌱 Currently strengthening my foundations in operating systems, computer networks, DBMS, and system design
 
 ### `skills --list`
 
-| Area | Tools & technologies |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,python,react,fastapi,flask,docker,git,github,vscode,cmake" alt="C++, Python, React, FastAPI, Flask, Docker, Git, GitHub, VS Code and CMake" />
+</p>
+
+| Area | Tools & concepts |
 |---|---|
 | **Languages** | C++, Python, SQL |
 | **Core CS** | Data Structures & Algorithms, OOP, DBMS |
-| **Backend & Systems** | Flask, FastAPI, POSIX sockets, multithreading, CMake |
-| **Tools** | Git, GitHub, Docker, VS Code |
+| **Backend & Systems** | POSIX sockets, TCP/IP, HTTP/1.1, multithreading, Flask, FastAPI, CMake |
 | **Web** | React, HTML, CSS |
+| **Tools** | Git, GitHub, Docker, VS Code |
 
 ### `ls ~/featured-projects`
 
 | Project | What I built | Stack |
 |---|---|---|
-| [**TitanHTTP**](https://github.com/shineyrbl-byte/TitanHTTP) | Lightweight multithreaded HTTP/1.1 server with request parsing, static-file serving, a fixed-size thread pool, and thread-safe logging. | C++, POSIX sockets, threads |
-| [**Mini Redis**](https://github.com/shineyrbl-byte/mini-redis) | Redis-inspired TCP key-value store with concurrent clients, TTL-based expiry, and file persistence. | C++17, TCP, mutexes |
-| [**Last-Minute Life Saver**](https://github.com/shineyrbl-byte/last-minute-life-saver) | Student productivity planner for organising tasks, prioritising work, and building schedules. | C++, React, Gemini API |
-| [**RSA Security Project**](https://github.com/shineyrbl-byte/rsa-security-project) | Interactive exploration of RSA encryption, decryption, and selected weaknesses in controlled examples. | C++, cryptography |
-| [**AI Text Summarizer**](https://github.com/shineyrbl-byte/AI-Text-Summarizer) | Web application for summarising text and PDF content with a transformer-based model. | React, FastAPI, Python |
-| [**MindPeers Chatbot**](https://github.com/shineyrbl-byte/Mindpeers-Chatbot) | LLM-powered chatbot prototype developed during an internship project. | Python, Flask, LLMs |
-| [**PhonePe Pulse Analysis**](https://github.com/shineyrbl-byte/PhonePe-Pulse-Data-Analysis) | Exploratory analysis and visualisation of digital payments data. | Python, Pandas |
+| [**TitanHTTP**](https://github.com/shineyrbl-byte/TitanHTTP) | HTTP/1.1 server built from scratch with POSIX sockets, request parsing, static-file serving, error handling, and a fixed-size worker thread pool. Tested with curl, netcat, and concurrent clients. | C++, POSIX sockets, threads |
+| [**Mini Redis**](https://github.com/shineyrbl-byte/mini-redis) | Multithreaded TCP key-value store with Redis-style commands, lazy TTL expiry, mutex-protected storage, and disk persistence. Local PING benchmarks in the project README report ~62.3K req/s sequentially and ~107.8K req/s across 10 clients. | C++17, TCP, mutexes, file I/O |
+| [**Last-Minute Life Saver**](https://github.com/shineyrbl-byte/last-minute-life-saver) | Student productivity planner with a C++ REST backend, task-priority and risk-analysis logic, Gemini-powered study plans, and productivity analytics. | C++, React, CMake, Gemini API |
+| [**RSA Security Lab**](https://github.com/shineyrbl-byte/rsa-security-project) | Interactive project exploring RSA key generation, encryption/decryption, and selected attacks on deliberately weak or controlled examples. | C++, cryptography |
+| [**AI Text Summarizer**](https://github.com/shineyrbl-byte/AI-Text-Summarizer) | React and FastAPI application that summarizes text and uploaded PDFs using a Hugging Face DistilBART model. | Python, FastAPI, React, Transformers |
+
+<details>
+<summary><b>Systems project architecture previews</b></summary>
+
+**TitanHTTP**
+
+```mermaid
+flowchart TD
+    A[Client] --> B[TCP Socket]
+    B --> C[Fixed-size Thread Pool]
+    C --> D[HTTP Request Parser]
+    D --> E[Validation]
+    E --> F[Static File Lookup]
+    F --> G[HTTP Response]
+    G --> H[sendAll to Client]
+```
+
+**Mini Redis**
+
+```mermaid
+flowchart TD
+    A[Multiple TCP Clients] --> B[Server]
+    B --> C[Client Threads]
+    C --> D[Command Parser]
+    D --> E[Mutex-protected Key-Value Store]
+    E --> F[TTL Expiry]
+    E --> G[SAVE / Disk Persistence]
+```
+
+</details>
 
 ### `experience --list`
 
 - **MindPeers** · AI/ML & Software Development Intern  
-  Worked on an LLM-based chatbot and contributed to platform content organisation.
+  Developed a Flask-based, domain-focused LLM chatbot prototype with local Ollama/Qwen integration and safety-oriented crisis phrase handling. Also helped organise 500+ Homework Library resources into 375 files.
 - **Labmentix** · Data Science with AI Intern  
-  Built small applications and worked on data analysis projects.
+  Built a React/Vite + FastAPI text summarizer using DistilBART, developed a Streamlit travel-agent prototype, and worked on PhonePe Pulse and Zomato data projects.
 - **Evoastra** · Python / Data Analysis Intern  
-  Worked with Python libraries for data cleaning, exploration, and visualisation.
+  Worked with Pandas, NumPy, Matplotlib, and Seaborn for data cleaning, exploratory analysis, and visualisation.
 
 ### `currently`
 
-- Building more C++ and backend/systems projects
-- Practising DSA and problem solving
-- Learning operating systems, computer networks, DBMS, and system design
+Building C++ backend/systems projects · Practising DSA · Learning OS, CN, DBMS & System Design
 
 ### `github-stats`
 
@@ -72,10 +101,6 @@ I'm an undergraduate at **BITS Pilani, Goa Campus**, interested in building soft
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=shineyrbl-byte&hide_border=true&theme=tokyonight&timezone=Asia%2FKolkata" alt="GitHub contribution streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shineyrbl-byte&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph" width="100%"/>
 </p>
 
 ### `connect`
