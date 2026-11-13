@@ -84,6 +84,8 @@ I'm an undergraduate at **BITS Pilani, Goa Campus**, interested in building soft
   <a href="https://codeforces.com/profile/Avisha_2911">Codeforces · Avisha_2911</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/shineyrbl-byte">GitHub · shineyrbl-byte</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/avisha-srivastava-a7b78523a/">LinkedIn · Avisha Srivastava</a>
 </p>
 
 <p align="center">
