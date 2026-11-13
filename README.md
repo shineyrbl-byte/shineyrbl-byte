@@ -86,6 +86,12 @@ I'm an undergraduate at **BITS Pilani, Goa Campus**, interested in building soft
   <a href="https://github.com/shineyrbl-byte">GitHub · shineyrbl-byte</a>
 </p>
 
+<p align="center">
+  <a href="https://codeforces.com/profile/Avisha_2911">
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Avisha_2911" alt="Codeforces statistics for Avisha_2911"/>
+  </a>
+</p>
+
 ### `contribution-snake`
 
 <p align="center">
