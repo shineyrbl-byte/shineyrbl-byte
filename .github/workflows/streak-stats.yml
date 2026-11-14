@@ -2,7 +2,7 @@ name: Update profile cards
 
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *" # Every 15 min (off-peak minutes); only commits when the card changes
+    - cron: "7,22,37,52 * * * *" # Every 15 min at off-peak minutes; only commits when something changed
   workflow_dispatch:
   push:
     branches:
@@ -14,6 +14,11 @@ on:
 permissions:
   contents: write
 
+# Both profile workflows push to main; run them one at a time.
+concurrency:
+  group: profile-commit
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,17 +26,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate streak stats
+      - name: Generate streak card
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&timezone=Asia%2FKolkata
           path: profile/streak.svg
 
+      - name: Generate streak card (light)
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=default&hide_border=true&timezone=Asia%2FKolkata
+          path: profile/streak-light.svg
+
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=github&hide_border=true&theme=tokyonight
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -39,19 +50,36 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&theme=tokyonight&langs_count=8
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=tokyonight
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Refresh recent activity and latest builds
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=github&hide_border=true&theme=default
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=default
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Refresh README sections and trend graph
         run: python3 scripts/update_readme.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit updated cards
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg README.md
           git commit -m "chore: update profile cards" || exit 0
+          git pull --rebase
           git push

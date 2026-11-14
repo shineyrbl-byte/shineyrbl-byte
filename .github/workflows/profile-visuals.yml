@@ -1,0 +1,137 @@
+name: Update profile visuals
+
+on:
+  schedule:
+    - cron: "47 */6 * * *" # Every 6 hours; repo cards and the 3D calendar change slowly
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-visuals.yml"
+
+permissions:
+  contents: write
+
+# Both profile workflows push to main; run them one at a time.
+concurrency:
+  group: profile-commit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: "Repo card - TitanHTTP (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=TitanHTTP&show_owner=false&description_lines_count=2&hide_border=true&theme=tokyonight
+          path: profile/pin-TitanHTTP-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - TitanHTTP (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=TitanHTTP&show_owner=false&description_lines_count=2&hide_border=true&theme=default
+          path: profile/pin-TitanHTTP-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - mini-redis (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=mini-redis&show_owner=false&description_lines_count=2&hide_border=true&theme=tokyonight
+          path: profile/pin-mini-redis-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - mini-redis (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=mini-redis&show_owner=false&description_lines_count=2&hide_border=true&theme=default
+          path: profile/pin-mini-redis-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - last-minute-life-saver (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=last-minute-life-saver&show_owner=false&description_lines_count=2&hide_border=true&theme=tokyonight
+          path: profile/pin-last-minute-life-saver-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - last-minute-life-saver (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=last-minute-life-saver&show_owner=false&description_lines_count=2&hide_border=true&theme=default
+          path: profile/pin-last-minute-life-saver-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - rsa-security-project (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=rsa-security-project&show_owner=false&description_lines_count=2&hide_border=true&theme=tokyonight
+          path: profile/pin-rsa-security-project-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - rsa-security-project (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=rsa-security-project&show_owner=false&description_lines_count=2&hide_border=true&theme=default
+          path: profile/pin-rsa-security-project-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - AI-Text-Summarizer (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=AI-Text-Summarizer&show_owner=false&description_lines_count=2&hide_border=true&theme=tokyonight
+          path: profile/pin-AI-Text-Summarizer-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - AI-Text-Summarizer (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=AI-Text-Summarizer&show_owner=false&description_lines_count=2&hide_border=true&theme=default
+          path: profile/pin-AI-Text-Summarizer-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - mini-dbms (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=mini-dbms&show_owner=false&description_lines_count=2&hide_border=true&theme=tokyonight
+          path: profile/pin-mini-dbms-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Repo card - mini-dbms (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=mini-dbms&show_owner=false&description_lines_count=2&hide_border=true&theme=default
+          path: profile/pin-mini-dbms-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/pin-*.svg profile-3d-contrib
+          git commit -m "chore: update profile visuals" || exit 0
+          git pull --rebase
+          git push

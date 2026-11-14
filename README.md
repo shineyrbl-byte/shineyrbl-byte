@@ -1,7 +1,11 @@
 <!-- Profile README for github.com/shineyrbl-byte -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/profile-banner.svg" alt="Avisha Srivastava — Code, Build, Learn" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/profile-banner.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/profile-banner-light.svg"/>
+    <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/profile-banner.svg" alt="Avisha Srivastava — Code, Build, Learn" width="100%"/>
+  </picture>
 </p>
 
 <h1 align="center">Hi, I'm Avisha 👋</h1>
@@ -11,12 +15,22 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/avisha-srivastava-a7b78523a/"><img src="https://img.shields.io/badge/LinkedIn-Avisha%20Srivastava-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/typing-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/typing-light.svg"/>
+    <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/typing-dark.svg" alt="C++ backend and systems programmer · 20+ hackathon builds in two months · From TCP servers to quantum compilers · Still learning. Still shipping."/>
+  </picture>
 </p>
 
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/seed-and-spread">Seed &amp; Spread</a>: budgeted code-graph repo maps that help small on-device models (Gemma 4) find bugs
+  <a href="https://www.linkedin.com/in/avisha-srivastava-a7b78523a/"><img src="https://img.shields.io/badge/LinkedIn-Avisha%20Srivastava-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
+
+<!-- NOW-BUILDING:START -->
+<p align="center">
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/seed-and-spread">seed-and-spread</a>: Seed &amp; Spread: budgeted, issue-seeded code-graph repo maps that help small on-device models (Gemma 4) localize bugs. Gemma 4 Developer Agent Paper Track.
+</p>
+<!-- NOW-BUILDING:END -->
 
 ---
 
@@ -45,6 +59,54 @@ I'm an undergraduate at **BITS Pilani, Goa Campus** who enjoys building software
 
 ### `ls ~/featured-projects`
 
+<p align="center">
+<a href="https://github.com/shineyrbl-byte/TitanHTTP">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-TitanHTTP-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-TitanHTTP-light.svg"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-TitanHTTP-dark.svg" alt="TitanHTTP repository card"/>
+    </picture>
+</a>
+<a href="https://github.com/shineyrbl-byte/mini-redis">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-redis-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-redis-light.svg"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-redis-dark.svg" alt="Mini Redis repository card"/>
+    </picture>
+</a>
+<a href="https://github.com/shineyrbl-byte/last-minute-life-saver">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-last-minute-life-saver-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-last-minute-life-saver-light.svg"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-last-minute-life-saver-dark.svg" alt="Last-Minute Life Saver repository card"/>
+    </picture>
+</a>
+<a href="https://github.com/shineyrbl-byte/rsa-security-project">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-rsa-security-project-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-rsa-security-project-light.svg"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-rsa-security-project-dark.svg" alt="RSA Security Lab repository card"/>
+    </picture>
+</a>
+<a href="https://github.com/shineyrbl-byte/AI-Text-Summarizer">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-AI-Text-Summarizer-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-AI-Text-Summarizer-light.svg"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-AI-Text-Summarizer-dark.svg" alt="AI Text Summarizer repository card"/>
+    </picture>
+</a>
+<a href="https://github.com/shineyrbl-byte/mini-dbms">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-dbms-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-dbms-light.svg"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-dbms-dark.svg" alt="Mini DBMS repository card"/>
+    </picture>
+</a>
+</p>
+
+<details>
+<summary><b>What I built in each project</b></summary>
+
 | Project | What I built | Stack |
 |---|---|---|
 | [**TitanHTTP**](https://github.com/shineyrbl-byte/TitanHTTP) | HTTP/1.1 server built from scratch with POSIX sockets, request parsing, static-file serving, error handling, and a fixed-size worker thread pool. Tested with curl, netcat, and concurrent clients. | C++, POSIX sockets, threads |
@@ -53,6 +115,8 @@ I'm an undergraduate at **BITS Pilani, Goa Campus** who enjoys building software
 | [**RSA Security Lab**](https://github.com/shineyrbl-byte/rsa-security-project) | Interactive project exploring RSA key generation, encryption/decryption, and selected attacks on deliberately weak or controlled examples. | C++, cryptography |
 | [**Mini DBMS**](https://github.com/shineyrbl-byte/mini-dbms) *(in progress)* | Relational database engine from scratch: typed columns, schemas, and tables that validate rows on insert. Next up: storage, indexing, and a query layer. | C++, CMake |
 | [**AI Text Summarizer**](https://github.com/shineyrbl-byte/AI-Text-Summarizer) | React and FastAPI application that summarizes text and uploaded PDFs using a Hugging Face DistilBART model. | Python, FastAPI, React, Transformers |
+
+</details>
 
 <details>
 <summary><b>Systems project architecture previews</b></summary>
@@ -139,6 +203,9 @@ flowchart TD
 
 ### `experience --list`
 
+<details>
+<summary><b>3 internships</b>: MindPeers · Labmentix · Evoastra</summary>
+
 - **MindPeers** · AI/ML & Software Development Intern  
   Developed a Flask-based, domain-focused LLM chatbot prototype with local Ollama/Qwen integration and safety-oriented crisis phrase handling. Also helped organise 500+ Homework Library resources into 375 files.
 - **Labmentix** · Data Science with AI Intern  
@@ -146,16 +213,61 @@ flowchart TD
 - **Evoastra** · Python / Data Analysis Intern  
   Worked with Pandas, NumPy, Matplotlib, and Seaborn for data cleaning, exploratory analysis, and visualisation.
 
+</details>
+
+### `cat ~/writing`
+
+- 📄 [**Seed, Don't Spread**](https://github.com/shineyrbl-byte/seed-and-spread/blob/main/paper/writeup.md): what a small on-device model needs to see of a repository. Gemma 4 paper track on Kaggle.
+- ⚛️ [**Splitting quantum circuits across linked QPUs**](https://github.com/shineyrbl-byte/qff_bits_TEAM-N5CM52/blob/main/REPORT.md): technical report for the distributed quantum compiler, with results on IBM hardware. QFF 2026.
+- 🩹 [**Scar Tissue: turning postmortems into warnings**](https://github.com/shineyrbl-byte/scar-tissue/blob/main/docs/DEVPOST.md): the Codegeist 2026 project write-up.
+
 ### `github-stats`
 
+<!-- THIS-MONTH:START -->
+<p align="center"><b>📅 November 2026 so far:</b> 414 contributions · 15 repos · 53 PRs merged</p>
+<!-- THIS-MONTH:END -->
+
 <p align="center">
-  <img height="165" src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/stats.svg" alt="GitHub statistics"/>
-  <img height="165" src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/top-langs.svg" alt="Most used languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/stats.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/stats-light.svg"/>
+    <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/stats.svg" alt="GitHub statistics" height="165"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/top-langs.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/top-langs-light.svg"/>
+    <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/top-langs.svg" alt="Most used languages" height="165"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/streak.svg" alt="GitHub contribution streak"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/streak.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/streak-light.svg"/>
+    <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/streak.svg" alt="GitHub contribution streak"/>
+  </picture>
 </p>
+
+<details>
+<summary><b>More graphs</b>: 30-day trend and 3D contribution calendar</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/trend-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/trend-light.svg"/>
+    <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/trend-dark.svg" alt="Contributions over the last 30 days" width="100%"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile-3d-contrib/profile-night-rainbow.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile-3d-contrib/profile-gitblock.svg"/>
+    <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" width="100%"/>
+  </picture>
+</p>
+
+</details>
 
 ### `contribution-snake`
 

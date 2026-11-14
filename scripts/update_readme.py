@@ -1,12 +1,15 @@
-"""Refresh the auto-generated sections of the profile README.
+"""Refresh the auto-generated parts of the profile README.
 
-Fills two marker blocks:
-  <!-- RECENT-ACTIVITY:START --> ... <!-- RECENT-ACTIVITY:END -->
-  <!-- LATEST-REPOS:START -->    ... <!-- LATEST-REPOS:END -->
-Uses only the public GitHub REST API (GITHUB_TOKEN raises the rate limit).
+Marker blocks filled in README.md:
+  NOW-BUILDING     most recently pushed repo of mine
+  THIS-MONTH       contributions / repos / merged PRs this month
+  RECENT-ACTIVITY  latest public activity, one line per repo
+  LATEST-REPOS     newest repos not already featured
+Also writes profile/trend-dark.svg and profile/trend-light.svg (last 30 days).
+Uses only the GitHub API with GITHUB_TOKEN (public data).
 """
-import json, os, re, urllib.request
-from datetime import datetime
+import html, json, os, re, urllib.request
+from datetime import datetime, timedelta, timezone
 
 USER = os.environ.get("GH_USER", "shineyrbl-byte")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -15,14 +18,90 @@ ACTIVITY_COUNT = 6
 REPO_COUNT = 15
 
 
-def api(path):
+def api(path, body=None):
     req = urllib.request.Request(f"https://api.github.com{path}",
+                                 data=json.dumps(body).encode() if body else None,
                                  headers={"Accept": "application/vnd.github+json",
                                           "User-Agent": "profile-readme-updater"})
     if TOKEN:
         req.add_header("Authorization", f"Bearer {TOKEN}")
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
+
+
+def graphql(query, **variables):
+    out = api("/graphql", {"query": query, "variables": variables})
+    if out.get("errors"):
+        raise RuntimeError(out["errors"])
+    return out["data"]
+
+
+def now_building():
+    for r in api(f"/users/{USER}/repos?sort=pushed&direction=desc&per_page=20&type=owner"):
+        if r["fork"] or r["archived"] or r["name"] == USER:
+            continue
+        desc = html.escape(re.sub(r"\s+", " ", (r["description"] or "").strip()))
+        return (f'<p align="center">\n  🚧 <b>Now building:</b> '
+                f'<a href="{r["html_url"]}">{html.escape(r["name"])}</a>'
+                + (f": {desc}" if desc else "") + "\n</p>")
+    return ""
+
+
+def this_month():
+    now = datetime.now(timezone.utc)
+    start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    c = graphql("""query($u:String!,$f:DateTime!,$t:DateTime!){user(login:$u){
+        contributionsCollection(from:$f,to:$t){contributionCalendar{totalContributions}
+        totalRepositoriesWithContributedCommits totalRepositoriesWithContributedPullRequests}}}""",
+                u=USER, f=start.isoformat(), t=now.isoformat())["user"]["contributionsCollection"]
+    merged = api(f"/search/issues?q=type:pr+author:{USER}+is:merged+merged:%3E%3D{start:%Y-%m-%d}&per_page=1")["total_count"]
+    total = c["contributionCalendar"]["totalContributions"]
+    repos = max(c["totalRepositoriesWithContributedCommits"], c["totalRepositoriesWithContributedPullRequests"])
+    plural = lambda n, w: f"{n:,} {w}{'s' if n != 1 else ''}"
+    return (f'<p align="center"><b>📅 {start:%B %Y} so far:</b> '
+            f'{plural(total, "contribution")} · {plural(repos, "repo")} · {plural(merged, "PR")} merged</p>')
+
+
+def trend_svgs():
+    now = datetime.now(timezone.utc)
+    cal = graphql("""query($u:String!,$f:DateTime!,$t:DateTime!){user(login:$u){
+        contributionsCollection(from:$f,to:$t){contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}""",
+                  u=USER, f=(now - timedelta(days=29)).isoformat(), t=now.isoformat())
+    days = [d for w in cal["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+            for d in w["contributionDays"]][-30:]
+    W, H, L, R, T, B = 820, 230, 48, 20, 52, 36
+    peak = max([d["contributionCount"] for d in days] + [1])
+    xs = [L + i * (W - L - R) / max(len(days) - 1, 1) for i in range(len(days))]
+    ys = [H - B - d["contributionCount"] / peak * (H - T - B) for d in days]
+    line = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
+    area = f"{L},{H - B} {line} {xs[-1]:.1f},{H - B}"
+    total = sum(d["contributionCount"] for d in days)
+    fmt = lambda d: datetime.strptime(d, "%Y-%m-%d").strftime("%b %d")
+    themes = {"dark": dict(bg="#1a1b27", text="#a9b1d6", title="#70a5fd", line="#bf91f3", grid="#2a2c3d"),
+              "light": dict(bg="#ffffff", text="#57606a", title="#2f80ed", line="#7c3aed", grid="#e5e7eb")}
+    for name, c in themes.items():
+        grid = "".join(f'<line x1="{L}" x2="{W - R}" y1="{T + k * (H - T - B) / 2:.1f}" y2="{T + k * (H - T - B) / 2:.1f}" stroke="{c["grid"]}"/>'
+                       for k in range(3))
+        dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3" fill="{c["line"]}"><title>{fmt(d["date"])}: {d["contributionCount"]}</title></circle>'
+                       for x, y, d in zip(xs, ys, days))
+        svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{total} contributions in the last 30 days">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["line"]}" stop-opacity=".35"/><stop offset="1" stop-color="{c["line"]}" stop-opacity="0"/></linearGradient></defs>
+<rect width="{W}" height="{H}" rx="6" fill="{c["bg"]}"/>
+<g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<text x="{L}" y="30" fill="{c["title"]}" font-size="18" font-weight="600">Contributions · last 30 days</text>
+<text x="{W - R}" y="30" fill="{c["text"]}" font-size="14" text-anchor="end">{total:,} total · peak {peak}/day</text>
+{grid}
+<text x="{L - 8}" y="{T + 4}" fill="{c["text"]}" font-size="11" text-anchor="end">{peak}</text>
+<text x="{L - 8}" y="{H - B + 4}" fill="{c["text"]}" font-size="11" text-anchor="end">0</text>
+<polygon points="{area}" fill="url(#g)"/>
+<polyline points="{line}" fill="none" stroke="{c["line"]}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+{dots}
+<text x="{L}" y="{H - 12}" fill="{c["text"]}" font-size="11">{fmt(days[0]["date"])}</text>
+<text x="{W - R}" y="{H - 12}" fill="{c["text"]}" font-size="11" text-anchor="end">{fmt(days[-1]["date"])}</text>
+</g></svg>
+"""
+        os.makedirs("profile", exist_ok=True)
+        open(f"profile/trend-{name}.svg", "w", encoding="utf-8").write(svg)
 
 
 def day(ts):
@@ -118,6 +197,9 @@ text = open(README, encoding="utf-8").read()
 outside = re.sub(r"<!-- (\w|-)+:START -->.*?<!-- (\w|-)+:END -->", "", text, flags=re.S)
 new = fill(text, "RECENT-ACTIVITY", recent_activity())
 new = fill(new, "LATEST-REPOS", latest_repos(outside))
+new = fill(new, "NOW-BUILDING", now_building())
+new = fill(new, "THIS-MONTH", this_month())
+trend_svgs()
 if new != text:
     open(README, "w", encoding="utf-8").write(new)
     print("README updated")
