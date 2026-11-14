@@ -96,6 +96,14 @@ flowchart TD
 | [**SayMath**](https://github.com/shineyrbl-byte/saymath) | Turns typed equations into clear, explorable speech in English and Hindi. Works offline. | AccessED Hacks 2026 | [live](https://shineyrbl-byte.github.io/saymath/) · [demo](https://youtu.be/OQ8i_HQ8HNc) |
 | [**Lab Logger**](https://github.com/shineyrbl-byte/lab-logger) | AR Lens for Snap Spectacles that logs lab bench sensor readings into a floating table and live graphs. | Learn AR with SPECS | [demo](https://youtu.be/4U_Zpr5aqFk) |
 
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="https://moss-and-moon.up.railway.app"><img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/screenshots/moss-and-moon.jpg" alt="Moss and Moon café website home page"/></a><br/><sub><b>Moss &amp; Moon</b> · café platform</sub></td>
+    <td align="center" width="33%"><a href="https://duely-ten-iota.vercel.app"><img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/screenshots/duely.jpg" alt="Duely dashboard with invoices and the collections agent"/></a><br/><sub><b>Duely</b> · AI invoicing copilot</sub></td>
+    <td align="center" width="33%"><a href="https://shineyrbl-byte.github.io/saymath/"><img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/assets/screenshots/saymath.jpg" alt="SayMath app reading a typed equation aloud"/></a><br/><sub><b>SayMath</b> · math you can hear</sub></td>
+  </tr>
+</table>
+
 <details>
 <summary><b>More recent builds</b> <sub>(auto-updated)</sub></summary>
 
