@@ -64,42 +64,35 @@ I'm an undergraduate at **BITS Pilani, Goa Campus** who enjoys building software
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-TitanHTTP-dark.svg"/>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-TitanHTTP-light.svg"/>
-      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-TitanHTTP-dark.svg" alt="TitanHTTP repository card"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-TitanHTTP-dark.svg" alt="TitanHTTP repository card" width="48%"/>
     </picture>
 </a>
 <a href="https://github.com/shineyrbl-byte/mini-redis">
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-redis-dark.svg"/>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-redis-light.svg"/>
-      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-redis-dark.svg" alt="Mini Redis repository card"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-redis-dark.svg" alt="Mini Redis repository card" width="48%"/>
     </picture>
 </a>
 <a href="https://github.com/shineyrbl-byte/last-minute-life-saver">
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-last-minute-life-saver-dark.svg"/>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-last-minute-life-saver-light.svg"/>
-      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-last-minute-life-saver-dark.svg" alt="Last-Minute Life Saver repository card"/>
-    </picture>
-</a>
-<a href="https://github.com/shineyrbl-byte/rsa-security-project">
-  <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-rsa-security-project-dark.svg"/>
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-rsa-security-project-light.svg"/>
-      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-rsa-security-project-dark.svg" alt="RSA Security Lab repository card"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-last-minute-life-saver-dark.svg" alt="Last-Minute Life Saver repository card" width="48%"/>
     </picture>
 </a>
 <a href="https://github.com/shineyrbl-byte/AI-Text-Summarizer">
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-AI-Text-Summarizer-dark.svg"/>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-AI-Text-Summarizer-light.svg"/>
-      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-AI-Text-Summarizer-dark.svg" alt="AI Text Summarizer repository card"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-AI-Text-Summarizer-dark.svg" alt="AI Text Summarizer repository card" width="48%"/>
     </picture>
 </a>
 <a href="https://github.com/shineyrbl-byte/mini-dbms">
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-dbms-dark.svg"/>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-dbms-light.svg"/>
-      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-dbms-dark.svg" alt="Mini DBMS repository card"/>
+      <img src="https://raw.githubusercontent.com/shineyrbl-byte/shineyrbl-byte/main/profile/pin-mini-dbms-dark.svg" alt="Mini DBMS repository card" width="48%"/>
     </picture>
 </a>
 </p>
@@ -112,7 +105,7 @@ I'm an undergraduate at **BITS Pilani, Goa Campus** who enjoys building software
 | [**TitanHTTP**](https://github.com/shineyrbl-byte/TitanHTTP) | HTTP/1.1 server built from scratch with POSIX sockets, request parsing, static-file serving, error handling, and a fixed-size worker thread pool. Tested with curl, netcat, and concurrent clients. | C++, POSIX sockets, threads |
 | [**Mini Redis**](https://github.com/shineyrbl-byte/mini-redis) | Multithreaded TCP key-value store with Redis-style commands, lazy TTL expiry, mutex-protected storage, and disk persistence. Local PING benchmarks in the project README report ~62.3K req/s sequentially and ~107.8K req/s across 10 clients. | C++17, TCP, mutexes, file I/O |
 | [**Last-Minute Life Saver**](https://github.com/shineyrbl-byte/last-minute-life-saver) | Student productivity planner with a C++ REST backend, task-priority and risk-analysis logic, Gemini-powered study plans, and productivity analytics. | C++, React, CMake, Gemini API |
-| [**RSA Security Lab**](https://github.com/shineyrbl-byte/rsa-security-project) | Interactive project exploring RSA key generation, encryption/decryption, and selected attacks on deliberately weak or controlled examples. | C++, cryptography |
+| **RSA Security Lab** *(private course project)* | Interactive project exploring RSA key generation, encryption/decryption, and selected attacks on deliberately weak or controlled examples. | C++, cryptography |
 | [**Mini DBMS**](https://github.com/shineyrbl-byte/mini-dbms) *(in progress)* | Relational database engine from scratch: typed columns, schemas, and tables that validate rows on insert. Next up: storage, indexing, and a query layer. | C++, CMake |
 | [**AI Text Summarizer**](https://github.com/shineyrbl-byte/AI-Text-Summarizer) | React and FastAPI application that summarizes text and uploaded PDFs using a Hugging Face DistilBART model. | Python, FastAPI, React, Transformers |
 

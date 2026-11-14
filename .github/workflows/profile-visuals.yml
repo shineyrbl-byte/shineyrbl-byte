@@ -79,22 +79,6 @@ jobs:
           path: profile/pin-last-minute-life-saver-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "Repo card - rsa-security-project (dark)"
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=rsa-security-project&show_owner=false&description_lines_count=2&hide_border=true&theme=tokyonight
-          path: profile/pin-rsa-security-project-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: "Repo card - rsa-security-project (light)"
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=rsa-security-project&show_owner=false&description_lines_count=2&hide_border=true&theme=default
-          path: profile/pin-rsa-security-project-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: "Repo card - AI-Text-Summarizer (dark)"
         uses: stats-organization/github-readme-stats-action@v2
         with:
