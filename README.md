@@ -145,7 +145,7 @@ flowchart TD
 
 | Project | What it does | Event | Links |
 |---|---|---|---|
-| [**Distributed Quantum Compiler**](https://github.com/shineyrbl-byte/qff_bits_TEAM-N5CM52) | Splits Qiskit circuits across linked QPUs with teleportation, gate packing, and wire cutting, plus a resource-aware scheduler. Verified on real IBM quantum hardware. | QFF 2026 | [repo](https://github.com/shineyrbl-byte/qff_bits_TEAM-N5CM52) |
+| **Distributed Quantum Compiler** | Splits Qiskit circuits across linked QPUs with teleportation, gate packing, and wire cutting, plus a resource-aware scheduler. Verified on real IBM quantum hardware. | QFF 2026 | <sub>private repo</sub> |
 | [**Seed & Spread**](https://github.com/shineyrbl-byte/seed-and-spread) | Issue-seeded code-graph repo maps that help small on-device models (Gemma 4) localize bugs. | Gemma 4 Paper Track | [repo](https://github.com/shineyrbl-byte/seed-and-spread) |
 | [**Scar Tissue**](https://github.com/shineyrbl-byte/scar-tissue) | Forge app + Rovo agent that turns forgotten postmortems into just-in-time warnings on Jira issues. | Codegeist 2026 | [demo](https://youtu.be/YXnuIGSu_dk) |
 | [**Duely**](https://github.com/shineyrbl-byte/duely) | AI get-paid copilot for freelancers: turns messy chats into PayPal invoices and chases late payments with an approval-first agent. | PayPal AI Hackathon | [live](https://duely-ten-iota.vercel.app) · [demo](https://youtu.be/fmJgOGCpJZk) |
@@ -211,7 +211,6 @@ flowchart TD
 ### `cat ~/writing`
 
 - 📄 [**Seed, Don't Spread**](https://github.com/shineyrbl-byte/seed-and-spread/blob/main/paper/writeup.md): what a small on-device model needs to see of a repository. Gemma 4 paper track on Kaggle.
-- ⚛️ [**Splitting quantum circuits across linked QPUs**](https://github.com/shineyrbl-byte/qff_bits_TEAM-N5CM52/blob/main/REPORT.md): technical report for the distributed quantum compiler, with results on IBM hardware. QFF 2026.
 - 🩹 [**Scar Tissue: turning postmortems into warnings**](https://github.com/shineyrbl-byte/scar-tissue/blob/main/docs/DEVPOST.md): the Codegeist 2026 project write-up.
 
 ### `github-stats`
