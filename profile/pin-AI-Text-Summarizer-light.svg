@@ -122,7 +122,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">No description provided</tspan>
+      <tspan dy="1.2em" x="25">React + FastAPI app that summarizes text and uploaded</tspan><tspan dy="1.2em" x="25">PDFs with a Hugging Face DistilBART model.</tspan>
     </text>
 
     <g transform="translate(30, 65)">
