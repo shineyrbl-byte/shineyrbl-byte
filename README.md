@@ -97,25 +97,37 @@ flowchart TD
 | [**Lab Logger**](https://github.com/shineyrbl-byte/lab-logger) | AR Lens for Snap Spectacles that logs lab bench sensor readings into a floating table and live graphs. | Learn AR with SPECS | [demo](https://youtu.be/4U_Zpr5aqFk) |
 
 <details>
-<summary><b>All recent hackathon builds</b></summary>
+<summary><b>More recent builds</b> <sub>(auto-updated)</sub></summary>
 
-- [**Natt**](https://github.com/shineyrbl-byte/natt): Lightning tontines (rotating savings groups) with a Nostr ledger. *Dakar Bitcoin Hack 2026*
-- [**ScamShield**](https://github.com/shineyrbl-byte/scamshield): plain-language scam risk scores for SMS, email, and links. *Next Byte Hacks V5*
-- [**Don't Mix**](https://github.com/shineyrbl-byte/dont-mix): offline check for unsafe cleaning-product combinations. *SafeSpace Hacks 2026*
-- [**WindowWise**](https://github.com/shineyrbl-byte/windowwise): hour-by-hour plan for when to open your windows
-- [**Grandma's Phone**](https://github.com/shineyrbl-byte/Grandmas-phone): scam-spotting game for social good
-- [**Unreachable**](https://github.com/shineyrbl-byte/Unreachable): an accessibility empathy simulator
-- [**Gourd Intentions**](https://github.com/shineyrbl-byte/Gourd-intentions): a to-do list where ignored tasks rot into pumpkins
-- [**StormChat**](https://github.com/shineyrbl-byte/Codex-Twitch): Twitch chat controls the weather on your stream (built with OpenAI Codex)
-- [**Dress the Vibe**](https://github.com/shineyrbl-byte/dress-the-vibe) and [**Product on Trial**](https://github.com/shineyrbl-byte/YouCam-API): YouCam AI hackathon entries
-- [**Escape Velocity**](https://github.com/shineyrbl-byte/Renderjuice-Blender): fully procedural Blender animation from one Python script. *RenderJuice*
-- [**Study Copilot**](https://github.com/shineyrbl-byte/nebius-study-copilot): sandboxed student AI on NVIDIA Nemotron + Nebius
-- [**Bee Promises**](https://github.com/shineyrbl-byte/bee-amazon): spoken promises → tasks and calendar events with Claude on Amazon Bedrock
-- [**ShelfLife**](https://github.com/shineyrbl-byte/shelflife): expiry tracking and rescue bundles for small cafés
-- [**FounderPath**](https://github.com/shineyrbl-byte/founderpath): AI co-founder from raw idea to validated plan. *Next Founders*
-- [**ClaimTrace**](https://github.com/shineyrbl-byte/claimtrace): evidence-backed search agent. *SerpApi Hackathon*
+<!-- LATEST-REPOS:START -->
+- [**dont-mix**](https://github.com/shineyrbl-byte/dont-mix): Don't Mix: check cleaning products before you mix or store them together. Rule-based, offline, private. SafeSpace Hacks 2026. · <sub>JavaScript</sub>
+- [**windowwise**](https://github.com/shineyrbl-byte/windowwise): Know when to open your windows: an hour-by-hour plan that cools your room for free and keeps polluted air out. · <sub>JavaScript</sub>
+- [**natt**](https://github.com/shineyrbl-byte/natt): Natt ⚡ Lightning tontines (rotating savings groups) for West Africa, with a Nostr ledger and an AI helper. Dakar Bitcoin Hack 2026. · <sub>JavaScript</sub>
+- [**scamshield**](https://github.com/shineyrbl-byte/scamshield): Paste a suspicious SMS, email or link and get a plain-language scam risk score. Next Byte Hacks V5. · <sub>JavaScript</sub>
+- [**Gourd-intentions**](https://github.com/shineyrbl-byte/Gourd-intentions): 🎃 The to-do list where ignored tasks rot into pumpkins and come back as ghosts to roast you. · <sub>TypeScript</sub>
+- [**Unreachable**](https://github.com/shineyrbl-byte/Unreachable): Unreachable: four people try to book a flu shot on a website that wasn't built for them. Feel the barriers, then fix them. · <sub>TypeScript</sub>
+- [**Grandmas-phone**](https://github.com/shineyrbl-byte/Grandmas-phone): Grandma's Phone: a scam-spotting game for social good. Protect Grandma's savings without cutting her off from the people she loves. · <sub>TypeScript</sub>
+- [**Codex-Twitch**](https://github.com/shineyrbl-byte/Codex-Twitch): StormChat: Twitch chat controls the weather on your stream. OBS overlay built with OpenAI Codex. · <sub>TypeScript</sub>
+- [**dress-the-vibe**](https://github.com/shineyrbl-byte/dress-the-vibe): ✨ Dress the Vibe: tell us the vibe, and we pick the outfit, match the makeup to its colors, and put the whole look on you with YouCam AI Clothes + Makeup VTO. · <sub>TypeScript</sub>
+- [**YouCam-API**](https://github.com/shineyrbl-byte/YouCam-API): ⚖️ Product on Trial: is your skincare actually working? YouCam Skin AI scans are the evidence, and the court rules Acquitted, Guilty or Case Continued. Built for the YouCam API Skin AI Hackathon. · <sub>TypeScript</sub>
+- [**Renderjuice-Blender**](https://github.com/shineyrbl-byte/Renderjuice-Blender): Escape Velocity: a 16s fully procedural Blender animation about Speed. One Python script builds everything: Geometry Nodes, camera, HUD, sparks & a synthesized soundtrack. RenderJuice contest entry. · <sub>Python</sub>
+- [**nebius-study-copilot**](https://github.com/shineyrbl-byte/nebius-study-copilot): Private, sandboxed personal AI for students: persistent memory, deadline tracking, daily briefs, and document-to-action-items. Runs NVIDIA Nemotron on Nebius Token Factory via NemoClaw/OpenShell. · <sub>Shell</sub>
+- [**bee-amazon**](https://github.com/shineyrbl-byte/bee-amazon): Turn promises you speak into your Bee into tasks, draft follow-ups, and calendar events, using the Bee CLI and Claude on Amazon Bedrock. · <sub>Python</sub>
+- [**shelflife**](https://github.com/shineyrbl-byte/shelflife): Expiry tracking and rescue bundles for small cafés and grocers · <sub>TypeScript</sub>
+- [**founderpath**](https://github.com/shineyrbl-byte/founderpath): FounderPath: an AI co-founder that turns a raw idea into a validated plan, build roadmap and first users. Next Founders hackathon. · <sub>TypeScript</sub>
+<!-- LATEST-REPOS:END -->
 
 </details>
+
+### `git log --recent`
+
+<!-- RECENT-ACTIVITY:START -->
+- 🎉 Merged 12 PRs ([#74](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/74), [#73](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/73), [#72](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/72), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 14</sub>
+- 🔨 Pushed to [seed-and-spread](https://github.com/shineyrbl-byte/seed-and-spread) · <sub>Nov 12</sub>
+- 🔨 Pushed to [scar-tissue](https://github.com/shineyrbl-byte/scar-tissue) · <sub>Nov 11</sub>
+- 🔨 Pushed to [saymath](https://github.com/shineyrbl-byte/saymath) · <sub>Nov 11</sub>
+- 🔨 Pushed to [dont-mix](https://github.com/shineyrbl-byte/dont-mix) · <sub>Nov 11</sub>
+<!-- RECENT-ACTIVITY:END -->
 
 ### `experience --list`
 
