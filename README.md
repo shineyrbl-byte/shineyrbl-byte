@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/mini-dbms">mini-dbms</a>: Relational database engine built from scratch in C++: typed schemas, tables and row validation (work in progress)
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/shelflife">shelflife</a>: Expiry tracking and rescue bundles for small cafés and grocers
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -187,7 +187,8 @@ flowchart TD
 ### `git log --recent`
 
 <!-- RECENT-ACTIVITY:START -->
-- 🎉 Merged 12 PRs ([#74](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/74), [#73](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/73), [#72](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/72), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 14</sub>
+- 💪 Opened 1 PR ([#37](https://github.com/shineyrbl-byte/shelflife/pull/37)) in [shelflife](https://github.com/shineyrbl-byte/shelflife) · <sub>Nov 14</sub>
+- 🎉 Merged 11 PRs ([#74](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/74), [#73](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/73), [#72](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/72), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 14</sub>
 - 🔨 Pushed to [seed-and-spread](https://github.com/shineyrbl-byte/seed-and-spread) · <sub>Nov 12</sub>
 - 🔨 Pushed to [scar-tissue](https://github.com/shineyrbl-byte/scar-tissue) · <sub>Nov 11</sub>
 - 🔨 Pushed to [saymath](https://github.com/shineyrbl-byte/saymath) · <sub>Nov 11</sub>
@@ -216,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 415 contributions · 16 repos · 53 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 435 contributions · 26 repos · 53 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
