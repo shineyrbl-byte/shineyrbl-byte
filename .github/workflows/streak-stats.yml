@@ -2,7 +2,7 @@ name: Update streak stats
 
 on:
   schedule:
-    - cron: "23 */3 * * *" # Every 3 hours (off-peak minute; top-of-hour crons get delayed/dropped)
+    - cron: "7,22,37,52 * * * *" # Every 15 min (off-peak minutes); only commits when the card changes
   workflow_dispatch:
   push:
     branches:
