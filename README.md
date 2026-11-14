@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/seed-and-spread">seed-and-spread</a>: Seed &amp; Spread: budgeted, issue-seeded code-graph repo maps that help small on-device models (Gemma 4) localize bugs. Gemma 4 Developer Agent Paper Track.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/mini-dbms">mini-dbms</a>: Relational database engine built from scratch in C++: typed schemas, tables and row validation (work in progress)
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -224,7 +224,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 414 contributions · 15 repos · 53 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 415 contributions · 16 repos · 53 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
