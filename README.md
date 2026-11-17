@@ -187,12 +187,12 @@ flowchart TD
 ### `git log --recent`
 
 <!-- RECENT-ACTIVITY:START -->
-- 🎉 Merged 14 PRs ([#88](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/88), [#87](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/87), [#86](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/86), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 16</sub>
+- 🎉 Merged 15 PRs ([#89](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/89), [#88](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/88), [#87](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/87), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 17</sub>
 - 🎉 Merged 1 PR ([#37](https://github.com/shineyrbl-byte/shelflife/pull/37)) in [shelflife](https://github.com/shineyrbl-byte/shelflife) · <sub>Nov 14</sub>
 - 🔨 Pushed to [dataforge-rime](https://github.com/shineyrbl-byte/dataforge-rime) · <sub>Nov 14</sub>
 - 🔨 Pushed to [founderpath](https://github.com/shineyrbl-byte/founderpath) · <sub>Nov 14</sub>
 - 🔨 Pushed to [dress-the-vibe](https://github.com/shineyrbl-byte/dress-the-vibe) · <sub>Nov 14</sub>
-- 🔨 Pushed to [Grandmas-phone](https://github.com/shineyrbl-byte/Grandmas-phone) · <sub>Nov 14</sub>
+- 🔨 Pushed to [Unreachable](https://github.com/shineyrbl-byte/Unreachable) · <sub>Nov 14</sub>
 <!-- RECENT-ACTIVITY:END -->
 
 ### `experience --list`
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 468 contributions · 27 repos · 68 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 470 contributions · 27 repos · 69 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
