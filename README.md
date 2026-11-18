@@ -187,12 +187,12 @@ flowchart TD
 ### `git log --recent`
 
 <!-- RECENT-ACTIVITY:START -->
+- 🔨 Pushed to [moss-and-moon](https://github.com/shineyrbl-byte/moss-and-moon) · <sub>Nov 18</sub>
 - 🎉 Merged 14 PRs ([#90](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/90), [#89](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/89), [#88](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/88), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 17</sub>
 - 🔨 Pushed to [shelflife](https://github.com/shineyrbl-byte/shelflife) · <sub>Nov 14</sub>
 - 🔨 Pushed to [founderpath](https://github.com/shineyrbl-byte/founderpath) · <sub>Nov 14</sub>
 - 🔨 Pushed to [dress-the-vibe](https://github.com/shineyrbl-byte/dress-the-vibe) · <sub>Nov 14</sub>
 - 🔨 Pushed to [Unreachable](https://github.com/shineyrbl-byte/Unreachable) · <sub>Nov 14</sub>
-- 🔨 Pushed to [scamshield](https://github.com/shineyrbl-byte/scamshield) · <sub>Nov 14</sub>
 <!-- RECENT-ACTIVITY:END -->
 
 ### `experience --list`
