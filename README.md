@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/moss-and-moon">moss-and-moon</a>: Moss &amp; Moon ☾ — a full café website: ordering with a drink builder, group orders, payments, accounts &amp; badges, events, AI barista, guest emails, and a staff dashboard with analytics, profit and rota. Next.js + SQLite on Railway.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/ml-breast-tumor-classification">ml-breast-tumor-classification</a>: Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC)
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -165,6 +165,7 @@ flowchart TD
 <summary><b>More recent builds</b> <sub>(auto-updated)</sub></summary>
 
 <!-- LATEST-REPOS:START -->
+- [**ml-breast-tumor-classification**](https://github.com/shineyrbl-byte/ml-breast-tumor-classification): Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC) · <sub>Jupyter Notebook</sub>
 - [**dont-mix**](https://github.com/shineyrbl-byte/dont-mix): Don't Mix: check cleaning products before you mix or store them together. Rule-based, offline, private. SafeSpace Hacks 2026. · <sub>JavaScript</sub>
 - [**windowwise**](https://github.com/shineyrbl-byte/windowwise): Know when to open your windows: an hour-by-hour plan that cools your room for free and keeps polluted air out. · <sub>JavaScript</sub>
 - [**natt**](https://github.com/shineyrbl-byte/natt): Natt ⚡ Lightning tontines (rotating savings groups) for West Africa, with a Nostr ledger and an AI helper. Dakar Bitcoin Hack 2026. · <sub>JavaScript</sub>
@@ -179,7 +180,6 @@ flowchart TD
 - [**nebius-study-copilot**](https://github.com/shineyrbl-byte/nebius-study-copilot): Private, sandboxed personal AI for students: persistent memory, deadline tracking, daily briefs, and document-to-action-items. Runs NVIDIA Nemotron on Nebius Token Factory via NemoClaw/OpenShell. · <sub>Shell</sub>
 - [**bee-amazon**](https://github.com/shineyrbl-byte/bee-amazon): Turn promises you speak into your Bee into tasks, draft follow-ups, and calendar events, using the Bee CLI and Claude on Amazon Bedrock. · <sub>Python</sub>
 - [**shelflife**](https://github.com/shineyrbl-byte/shelflife): Expiry tracking and rescue bundles for small cafés and grocers · <sub>TypeScript</sub>
-- [**founderpath**](https://github.com/shineyrbl-byte/founderpath): FounderPath: an AI co-founder that turns a raw idea into a validated plan, build roadmap and first users. Next Founders hackathon. · <sub>TypeScript</sub>
 <!-- LATEST-REPOS:END -->
 
 </details>
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 499 contributions · 27 repos · 70 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 500 contributions · 28 repos · 70 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
