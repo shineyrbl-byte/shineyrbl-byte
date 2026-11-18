@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/shelflife">shelflife</a>: Expiry tracking and rescue bundles for small cafés and grocers
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/moss-and-moon">moss-and-moon</a>: Moss &amp; Moon ☾ — a full café website: ordering with a drink builder, group orders, payments, accounts &amp; badges, events, AI barista, guest emails, and a staff dashboard with analytics, profit and rota. Next.js + SQLite on Railway.
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 472 contributions · 27 repos · 70 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 479 contributions · 27 repos · 70 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
