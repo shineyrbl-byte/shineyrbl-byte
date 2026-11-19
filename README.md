@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/ml-breast-tumor-classification">ml-breast-tumor-classification</a>: Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC)
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/Unreachable">Unreachable</a>: Unreachable: four people try to book a flu shot on a website that wasn&#x27;t built for them. Feel the barriers, then fix them.
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 500 contributions · 28 repos · 70 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 501 contributions · 28 repos · 70 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
