@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/Unreachable">Unreachable</a>: Unreachable: four people try to book a flu shot on a website that wasn&#x27;t built for them. Feel the barriers, then fix them.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/kindling">kindling</a>: 🔥 Kindling: a shared campfire that keeps drifting friend groups close. Quiet friends&#x27; seats cool to embers, and everyone else gets nudged to toss them a no-reply-needed spark. CSC Winter Sparkathon.
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -165,6 +165,7 @@ flowchart TD
 <summary><b>More recent builds</b> <sub>(auto-updated)</sub></summary>
 
 <!-- LATEST-REPOS:START -->
+- [**kindling**](https://github.com/shineyrbl-byte/kindling): 🔥 Kindling: a shared campfire that keeps drifting friend groups close. Quiet friends' seats cool to embers, and everyone else gets nudged to toss them a no-reply-needed spark. CSC Winter Sparkathon. · <sub>TypeScript</sub>
 - [**ml-breast-tumor-classification**](https://github.com/shineyrbl-byte/ml-breast-tumor-classification): Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC) · <sub>Jupyter Notebook</sub>
 - [**dont-mix**](https://github.com/shineyrbl-byte/dont-mix): Don't Mix: check cleaning products before you mix or store them together. Rule-based, offline, private. SafeSpace Hacks 2026. · <sub>JavaScript</sub>
 - [**windowwise**](https://github.com/shineyrbl-byte/windowwise): Know when to open your windows: an hour-by-hour plan that cools your room for free and keeps polluted air out. · <sub>JavaScript</sub>
@@ -179,7 +180,6 @@ flowchart TD
 - [**Renderjuice-Blender**](https://github.com/shineyrbl-byte/Renderjuice-Blender): Escape Velocity: a 16s fully procedural Blender animation about Speed. One Python script builds everything: Geometry Nodes, camera, HUD, sparks & a synthesized soundtrack. RenderJuice contest entry. · <sub>Python</sub>
 - [**nebius-study-copilot**](https://github.com/shineyrbl-byte/nebius-study-copilot): Private, sandboxed personal AI for students: persistent memory, deadline tracking, daily briefs, and document-to-action-items. Runs NVIDIA Nemotron on Nebius Token Factory via NemoClaw/OpenShell. · <sub>Shell</sub>
 - [**bee-amazon**](https://github.com/shineyrbl-byte/bee-amazon): Turn promises you speak into your Bee into tasks, draft follow-ups, and calendar events, using the Bee CLI and Claude on Amazon Bedrock. · <sub>Python</sub>
-- [**shelflife**](https://github.com/shineyrbl-byte/shelflife): Expiry tracking and rescue bundles for small cafés and grocers · <sub>TypeScript</sub>
 <!-- LATEST-REPOS:END -->
 
 </details>
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 501 contributions · 28 repos · 70 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 505 contributions · 29 repos · 70 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
