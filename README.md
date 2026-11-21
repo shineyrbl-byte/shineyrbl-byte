@@ -187,12 +187,12 @@ flowchart TD
 ### `git log --recent`
 
 <!-- RECENT-ACTIVITY:START -->
+- 🎉 Merged 11 PRs ([#90](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/90), [#89](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/89), [#88](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/88), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 21</sub>
 - 🔨 Pushed to [infinite-ugly-sweater](https://github.com/shineyrbl-byte/infinite-ugly-sweater) · <sub>Nov 20</sub>
 - 🔨 Pushed to [shadewalk](https://github.com/shineyrbl-byte/shadewalk) · <sub>Nov 20</sub>
 - 🔨 Pushed to [kindling](https://github.com/shineyrbl-byte/kindling) · <sub>Nov 20</sub>
 - 🔨 Pushed to [Unreachable](https://github.com/shineyrbl-byte/Unreachable) · <sub>Nov 19</sub>
 - 🔨 Pushed to [ml-breast-tumor-classification](https://github.com/shineyrbl-byte/ml-breast-tumor-classification) · <sub>Nov 18</sub>
-- 🔨 Pushed to [moss-and-moon](https://github.com/shineyrbl-byte/moss-and-moon) · <sub>Nov 18</sub>
 <!-- RECENT-ACTIVITY:END -->
 
 ### `experience --list`
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 556 contributions · 31 repos · 70 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 557 contributions · 31 repos · 70 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
