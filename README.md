@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/infinite-ugly-sweater">infinite-ugly-sweater</a>: ♾️🧶 The Infinite Ugly Sweater: a sweater with me wearing the sweater, forever. Concept, Photoshop + Nano Banana playbook, prompts and a photo-to-knit tool. Deck the Pixels 2026.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/ml-breast-tumor-classification">ml-breast-tumor-classification</a>: Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC)
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 622 contributions · 31 repos · 73 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 625 contributions · 31 repos · 73 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
