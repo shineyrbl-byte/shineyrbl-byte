@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/CS-F407-AI-Lab">CS-F407-AI-Lab</a>: Laboratory work for the Artificial Intelligence course.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/ml-breast-tumor-classification">ml-breast-tumor-classification</a>: Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC)
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -188,7 +188,7 @@ flowchart TD
 
 <!-- RECENT-ACTIVITY:START -->
 - 🔨 Pushed to [ml-breast-tumor-classification](https://github.com/shineyrbl-byte/ml-breast-tumor-classification) · <sub>Nov 23</sub>
-- 🎉 Merged 11 PRs ([#93](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/93), [#92](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/92), [#91](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/91), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 22</sub>
+- 🎉 Merged 10 PRs ([#93](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/93), [#92](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/92), [#91](https://github.com/f20241463-cmd/CS-F407-chaturanga/pull/91), …) in [f20241463-cmd/CS-F407-chaturanga](https://github.com/f20241463-cmd/CS-F407-chaturanga) · <sub>Nov 22</sub>
 - 🔨 Pushed to [infinite-ugly-sweater](https://github.com/shineyrbl-byte/infinite-ugly-sweater) · <sub>Nov 20</sub>
 - 🔨 Pushed to [shadewalk](https://github.com/shineyrbl-byte/shadewalk) · <sub>Nov 20</sub>
 - 🔨 Pushed to [kindling](https://github.com/shineyrbl-byte/kindling) · <sub>Nov 20</sub>
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 627 contributions · 32 repos · 73 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 629 contributions · 33 repos · 90 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
