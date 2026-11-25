@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/ml-breast-tumor-classification">ml-breast-tumor-classification</a>: Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC)
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/CS-F407-AI-Lab">CS-F407-AI-Lab</a>: Laboratory work for the Artificial Intelligence course.
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 631 contributions · 33 repos · 90 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 636 contributions · 33 repos · 90 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
