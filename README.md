@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/CS-F407-AI-Lab">CS-F407-AI-Lab</a>: Laboratory work for the Artificial Intelligence course.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/ml-breast-tumor-classification">ml-breast-tumor-classification</a>: BITS F464 Machine Learning Project - Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC)
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -168,7 +168,7 @@ flowchart TD
 - [**infinite-ugly-sweater**](https://github.com/shineyrbl-byte/infinite-ugly-sweater): ♾️🧶 The Infinite Ugly Sweater: a sweater with me wearing the sweater, forever. Concept, Photoshop + Nano Banana playbook, prompts and a photo-to-knit tool. Deck the Pixels 2026. · <sub>Python</sub>
 - [**shadewalk**](https://github.com/shineyrbl-byte/shadewalk): 🌳 Shadewalk: walking directions that keep you in the shade. Real sun position + OpenStreetMap buildings and trees → the coolest route, the best time to leave, and a map of streets that need trees. Code for Change 2026. · <sub>TypeScript</sub>
 - [**kindling**](https://github.com/shineyrbl-byte/kindling): 🔥 Kindling: a shared campfire that keeps drifting friend groups close. Quiet friends' seats cool to embers, and everyone else gets nudged to toss them a no-reply-needed spark. CSC Winter Sparkathon. · <sub>TypeScript</sub>
-- [**ml-breast-tumor-classification**](https://github.com/shineyrbl-byte/ml-breast-tumor-classification): Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC) · <sub>Jupyter Notebook</sub>
+- [**ml-breast-tumor-classification**](https://github.com/shineyrbl-byte/ml-breast-tumor-classification): BITS F464 Machine Learning Project - Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC) · <sub>Jupyter Notebook</sub>
 - [**dont-mix**](https://github.com/shineyrbl-byte/dont-mix): Don't Mix: check cleaning products before you mix or store them together. Rule-based, offline, private. SafeSpace Hacks 2026. · <sub>JavaScript</sub>
 - [**windowwise**](https://github.com/shineyrbl-byte/windowwise): Know when to open your windows: an hour-by-hour plan that cools your room for free and keeps polluted air out. · <sub>JavaScript</sub>
 - [**natt**](https://github.com/shineyrbl-byte/natt): Natt ⚡ Lightning tontines (rotating savings groups) for West Africa, with a Nostr ledger and an AI helper. Dakar Bitcoin Hack 2026. · <sub>JavaScript</sub>
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 637 contributions · 33 repos · 90 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 640 contributions · 33 repos · 90 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
