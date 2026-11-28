@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/cite-and-slay">cite-and-slay</a>: 📚💅 Cite &amp; Slay: catches hallucinated and misattributed citations. Checks every reference exists, its details are right, and it actually supports the claim, then suggests real sources. SLAY HACKS 2026.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/veil">veil</a>: 🎭 Veil: ask the cloud without telling it who you are. On-device Gemini Nano veils names and IDs, the cloud does the hard thinking on placeholders, and your details are restored locally. Firebase AI Logic hybrid inference. #BuildHybridAI
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 667 contributions · 35 repos · 90 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 669 contributions · 35 repos · 90 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
