@@ -28,7 +28,7 @@
 
 <!-- NOW-BUILDING:START -->
 <p align="center">
-  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/infinite-ugly-sweater">infinite-ugly-sweater</a>: ♾️🧶 The Infinite Ugly Sweater: a sweater with me wearing the sweater, forever. Concept, Photoshop + Nano Banana playbook, prompts and a photo-to-knit tool. Deck the Pixels 2026.
+  🚧 <b>Now building:</b> <a href="https://github.com/shineyrbl-byte/veil">veil</a>: 🎭 Veil: ask the cloud without telling it who you are. On-device Gemini Nano veils names and IDs, the cloud does the hard thinking on placeholders, and your details are restored locally. Firebase AI Logic hybrid inference. #BuildHybridAI
 </p>
 <!-- NOW-BUILDING:END -->
 
@@ -165,7 +165,8 @@ flowchart TD
 <summary><b>More recent builds</b> <sub>(auto-updated)</sub></summary>
 
 <!-- LATEST-REPOS:START -->
-- [**infinite-ugly-sweater**](https://github.com/shineyrbl-byte/infinite-ugly-sweater): ♾️🧶 The Infinite Ugly Sweater: a sweater with me wearing the sweater, forever. Concept, Photoshop + Nano Banana playbook, prompts and a photo-to-knit tool. Deck the Pixels 2026. · <sub>Python</sub>
+- [**veil**](https://github.com/shineyrbl-byte/veil): 🎭 Veil: ask the cloud without telling it who you are. On-device Gemini Nano veils names and IDs, the cloud does the hard thinking on placeholders, and your details are restored locally. Firebase AI Logic hybrid inference. #BuildHybridAI · <sub>TypeScript</sub>
+- [**infinite-ugly-sweater**](https://github.com/shineyrbl-byte/infinite-ugly-sweater): ♾️🧶 The Infinite Ugly Sweater: a sweater with me on it, wearing the sweater, wearing the sweater. Made with Nano Banana Pro in Photoshop. Deck the Pixels 2026 (submitted). · <sub>Python</sub>
 - [**shadewalk**](https://github.com/shineyrbl-byte/shadewalk): 🌳 Shadewalk: walking directions that keep you in the shade. Real sun position + OpenStreetMap buildings and trees → the coolest route, the best time to leave, and a map of streets that need trees. Code for Change 2026. · <sub>TypeScript</sub>
 - [**kindling**](https://github.com/shineyrbl-byte/kindling): 🔥 Kindling: a shared campfire that keeps drifting friend groups close. Quiet friends' seats cool to embers, and everyone else gets nudged to toss them a no-reply-needed spark. CSC Winter Sparkathon. · <sub>TypeScript</sub>
 - [**ml-breast-tumor-classification**](https://github.com/shineyrbl-byte/ml-breast-tumor-classification): BITS F464 Machine Learning Project - Breast tumor classification with classical ML: model comparison, PCA and feature selection (UCI WDBC) · <sub>Jupyter Notebook</sub>
@@ -179,7 +180,6 @@ flowchart TD
 - [**Codex-Twitch**](https://github.com/shineyrbl-byte/Codex-Twitch): StormChat: Twitch chat controls the weather on your stream. OBS overlay built with OpenAI Codex. · <sub>TypeScript</sub>
 - [**dress-the-vibe**](https://github.com/shineyrbl-byte/dress-the-vibe): ✨ Dress the Vibe: tell us the vibe, and we pick the outfit, match the makeup to its colors, and put the whole look on you with YouCam AI Clothes + Makeup VTO. · <sub>TypeScript</sub>
 - [**YouCam-API**](https://github.com/shineyrbl-byte/YouCam-API): ⚖️ Product on Trial: is your skincare actually working? YouCam Skin AI scans are the evidence, and the court rules Acquitted, Guilty or Case Continued. Built for the YouCam API Skin AI Hackathon. · <sub>TypeScript</sub>
-- [**Renderjuice-Blender**](https://github.com/shineyrbl-byte/Renderjuice-Blender): Escape Velocity: a 16s fully procedural Blender animation about Speed. One Python script builds everything: Geometry Nodes, camera, HUD, sparks & a synthesized soundtrack. RenderJuice contest entry. · <sub>Python</sub>
 <!-- LATEST-REPOS:END -->
 
 </details>
@@ -217,7 +217,7 @@ flowchart TD
 ### `github-stats`
 
 <!-- THIS-MONTH:START -->
-<p align="center"><b>📅 November 2026 so far:</b> 642 contributions · 33 repos · 90 PRs merged</p>
+<p align="center"><b>📅 November 2026 so far:</b> 649 contributions · 34 repos · 90 PRs merged</p>
 <!-- THIS-MONTH:END -->
 
 <p align="center">
